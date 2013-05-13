@@ -16,7 +16,7 @@ cd ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/
 Clone as your `User` packages:
 
 ```
-git clone httpshttps://github.com/cschubiner/sublime-text-2-settings.git User
+git clone https://github.com/cschubiner/sublime-text-2-settings.git User
 ```
 
 ## Updating
