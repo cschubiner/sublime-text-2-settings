@@ -1,0 +1,1 @@
+[ { "keys": ["command+i"], "command": "reindent", "args": {"single_line": false} } ]
