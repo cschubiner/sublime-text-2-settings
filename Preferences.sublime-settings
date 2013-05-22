@@ -38,12 +38,12 @@
 		".bundle",
 		".rbx"
 	],
-	"font_face": "Source Code Pro", //download from http://sourceforge.net/projects/sourcecodepro.adobe/?source=dlp
-	"font_size": 12.5,
+	"font_face": "Source Code Pro",
 	"font_options":
 	[
 		"subpixel_antialias"
 	],
+	"font_size": 12.5,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
@@ -52,7 +52,7 @@
 	"line_padding_bottom": 1,
 	"open_files_in_new_window": false,
 	"scroll_past_end": true,
-	"tab_size": 2,
+	"tab_size": 3,
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
 	"vintage_start_in_command_mode": true,
