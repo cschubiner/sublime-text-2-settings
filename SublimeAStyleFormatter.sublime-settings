@@ -10,7 +10,7 @@
         // Tab options
         // Can be either "spaces", "tab" or "force-tab",
         "indent": "spaces",
-        "indent-spaces": 3,
+        "indent-spaces": 2,
         "min-conditional-indent": 1
     }
 
