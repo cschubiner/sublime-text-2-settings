@@ -2,7 +2,7 @@
 	"auto_complete_commit_on_tab": true,
 	"bold_folder_labels": true,
 	"caret_style": "phase",
-	"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
+	"color_scheme": "Packages/Clay Schubiner Color Schemes/Today.tmTheme",
 	"detect_indentation": true,
 	"draw_indent_guides": true,
 	"ensure_newline_at_eof_on_save": true,
@@ -38,7 +38,7 @@
 		".bundle",
 		".rbx"
 	],
-	"font_face": "Source Code Pro",
+	"font_face": "Source Code Pro Semibold",
 	"font_options":
 	[
 		"subpixel_antialias"
