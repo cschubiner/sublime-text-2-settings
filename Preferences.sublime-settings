@@ -36,7 +36,8 @@
 		".hg",
 		".git",
 		".bundle",
-		".rbx"
+		".rbx",
+		"CVS"
 	],
 	"font_face": "Source Code Pro Semibold",
 	"font_options":
@@ -46,9 +47,7 @@
 	"font_size": 12.5,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
-	"ignored_packages":
-	[
-	],
+	"ignored_packages": [],
 	"line_padding_bottom": 1,
 	"open_files_in_new_window": false,
 	"scroll_past_end": true,
@@ -56,5 +55,10 @@
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
 	"vintage_start_in_command_mode": true,
-	"word_wrap": true
+	"word_wrap": true,
+	"show_tab_close_buttons": true,
+	"margin": 2,
+	"spell_check": false,
+  "default_line_ending": "unix",
+  "auto_complete_delay": 30
 }

@@ -24,6 +24,30 @@
 
     // Key bindings to send tabs between open panes
     { "keys": ["control+shift+left"], "command": "move_to_group", "args": { "group": 0 } },
-    { "keys": ["control+shift+right"], "command": "move_to_group", "args": { "group": 1 } }
+    { "keys": ["control+shift+right"], "command": "move_to_group", "args": { "group": 1 } },
 
+    {
+        "keys": ["ctrl+alt+w"], "command": "tidy_tabs"
+    },
+
+    {
+        "keys": ["super+alt+6"],
+        "command": "set_layout",
+        "args":
+        {
+            "cols":[0,0.5,1],
+            "rows":[0,0.5,1],
+            "cells":[[0,0,1,1],[1,0,2,2],[0,1,1,2]]
+        }
+    },
+    {
+        "keys": ["super+alt+7"],
+        "command": "set_layout",
+        "args":
+        {
+            "cols":[0,0.5,1],
+            "rows":[0,0.5,1],
+            "cells":[[0,0,1,2],[1,0,2,1],[1,1,2,2]]
+        }
+    }
 ]
