@@ -1,32 +1,55 @@
 [
     //Command + i to indent the whole file
-    //"keys": ["command+i"], "command": "reindent", "args": {"single_line": false} },
+    { "keys": ["command+i"], "command": "reindent", "args": {"single_line": false} },
+
+    { "keys": ["super+0"], "command": "refresh_folder_list" },
     // Pane Navigation
     {
         "keys": ["command+shift+l"],
         "command": "pane_navigation",
         "args": {"direction": 1}
-        },
+    },
     {
         "keys": ["command+shift+h"],
         "command": "pane_navigation",
         "args": {"direction": -1}
-        },
+    },
 
     // Modified Tab Navigation
     {
         "keys": ["command+shift+k"],
         "command": "next_view_in_pane"
-        },
+    },
     {
         "keys": ["command+shift+j"],
         "command": "prev_view_in_pane" },
 
     // Key bindings to send tabs between open panes
     { "keys": ["control+shift+left"], "command": "move_to_group", "args": { "group": 0 } },
-    { "keys": ["control+shift+right"], "command": "move_to_group", "args": { "group": 1 } }
+    { "keys": ["control+shift+right"], "command": "move_to_group", "args": { "group": 1 } },
 
+    {
+        "keys": ["ctrl+alt+w"], "command": "tidy_tabs"
+    },
+
+    {
+        "keys": ["super+alt+6"],
+        "command": "set_layout",
+        "args":
+        {
+            "cols":[0,0.5,1],
+            "rows":[0,0.5,1],
+            "cells":[[0,0,1,1],[1,0,2,2],[0,1,1,2]]
+        }
+    },
+    {
+        "keys": ["super+alt+7"],
+        "command": "set_layout",
+        "args":
+        {
+            "cols":[0,0.5,1],
+            "rows":[0,0.5,1],
+            "cells":[[0,0,1,2],[1,0,2,1],[1,1,2,2]]
+        }
+    }
 ]
-    { "keys": ["super+0"], "command": "refresh_folder_list" }
-    ]
-}

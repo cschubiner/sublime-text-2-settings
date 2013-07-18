@@ -1,8 +1,10 @@
 {
 	"auto_complete_commit_on_tab": true,
+	"auto_complete_delay": 30,
 	"bold_folder_labels": true,
 	"caret_style": "phase",
 	"color_scheme": "Packages/Clay Schubiner Color Schemes/Today.tmTheme",
+	"default_line_ending": "unix",
 	"detect_indentation": true,
 	"draw_indent_guides": true,
 	"ensure_newline_at_eof_on_save": true,
@@ -47,18 +49,18 @@
 	"font_size": 12.5,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
-	"ignored_packages": [],
+	"ignored_packages":
+	[
+	],
 	"line_padding_bottom": 1,
+	"margin": 2,
 	"open_files_in_new_window": false,
 	"scroll_past_end": true,
+	"show_tab_close_buttons": true,
+	"spell_check": false,
 	"tab_size": 2,
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
 	"vintage_start_in_command_mode": true,
-	"word_wrap": true,
-	"show_tab_close_buttons": true,
-	"margin": 2,
-	"spell_check": false,
-  "default_line_ending": "unix",
-  "auto_complete_delay": 30
+	"word_wrap": true
 }
