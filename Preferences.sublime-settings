@@ -41,7 +41,7 @@
 		".rbx",
 		"CVS"
 	],
-	"font_face": "Source Code Pro Semibold",
+	"font_face": "Source Code Pro Medium",
 	"font_options":
 	[
 		"subpixel_antialias"
@@ -52,10 +52,20 @@
 	"ignored_packages":
 	[
 	],
+	"indent_guide_options":
+	[
+		"draw_active"
+	],
 	"line_padding_bottom": 1,
 	"margin": 2,
+	"match_brackets_braces": true,
+	"match_brackets_content": true,
+	"match_brackets_square": true,
+	"match_tags": true,
 	"open_files_in_new_window": false,
+	"overlay_scroll_bars": "enabled",
 	"scroll_past_end": true,
+	"shift_tab_unindent": true,
 	"show_tab_close_buttons": true,
 	"spell_check": false,
 	"tab_size": 2,

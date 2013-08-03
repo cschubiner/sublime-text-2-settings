@@ -2,6 +2,10 @@
     //Command + i to indent the whole file
     { "keys": ["command+i"], "command": "reindent", "args": {"single_line": false} },
 
+    //Modified paste to autoindent
+    { "keys": ["super+v"], "command": "paste_and_indent" },
+    { "keys": ["super+shift+v"], "command": "paste" },
+
     { "keys": ["super+0"], "command": "refresh_folder_list" },
     // Pane Navigation
     {
@@ -51,5 +55,36 @@
             "rows":[0,0.5,1],
             "cells":[[0,0,1,2],[1,0,2,1],[1,1,2,2]]
         }
-    }
+    },
+    {
+        "keys": [
+            "ctrl+shift+up"
+        ],
+        "args": {
+            "action": "increment_number_by_1"
+        },
+        "command": "run_emmet_action",
+        "context": [
+            {
+                "key": "emmet_action_enabled.increment_number_by_1"
+            }
+        ]
+    },
+    {
+        "keys": [
+            "ctrl+shift+down"
+        ],
+        "args": {
+            "action": "decrement_number_by_1"
+        },
+        "command": "run_emmet_action",
+        "context": [
+            {
+                "key": "emmet_action_enabled.decrement_number_by_1"
+            }
+        ]
+    },
+    { "keys": ["ctrl+up"], "command": "select_lines", "args": {"forward": false} },
+    { "keys": ["ctrl+down"], "command": "select_lines", "args": {"forward": true} }
+
 ]
